@@ -1,17 +1,13 @@
-# 2021 Livesite 
-_The day-of site for the 2021 hackathon_
+# Basic React App 
+_A basic React App with my personal config preferences._
 
-## Helpful links
-- [Livesite Designs (in Figma)](https://www.figma.com/file/qgezzhkFHU4IJJhpdYaqtc/Live-Site?node-id=161%3A0) 
-- [A guide for using Git and GitHub](https://docs.google.com/document/d/1gZXyTDybJIk65tp0VBRweOfAJOv6RqUqRQgNXdSeKTw/edit?usp=sharing) (part of a guide put together for hackers last year) 
-- The livesite itself (production!): https://live.hackbeanpot.com/
 
 ## Getting Set Up For Development
 
 First and foremost, make sure you have [Node](https://nodejs.org/) installed.
 
-- Clone the repository (`git clone https://github.com/HackBeanpot/livesite-2021`)
-- Move into the new local repo (`cd website-2021`)
+- Clone the repository
+- Move into the new local repo
 - Install dependencies (`npm install`)
 - Launch the environment locally (`npm start`), then open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
@@ -23,11 +19,6 @@ First and foremost, make sure you have [Node](https://nodejs.org/) installed.
     - You can create the pull request by going to branches -> select your branch -> click "Create Pull Request" (make sure all of your changes have been pushed to `origin` first)
 3. Tweak your changes based on any feedback you get.
 
-Also, feel free to give constructive feedback on anyone else's pull requests. The tech team will review your changes and merge them if they look good.
-
-*Most importantly, reech out for help on slack if you have **any** questions!*
-
-
 ## Branches 
 - **Main branch** (`main`): production-ready site that gets deployed. Merging should only happen from development to master.
 - **Development branch** (`develop`): branch for developers to merge in their features as they are completed. PR should be made from feature branch to develop.
@@ -35,5 +26,5 @@ Also, feel free to give constructive feedback on anyone else's pull requests. Th
 
 ## Tools and Frameworks
 - [React](https://reactjs.org/docs/hello-world.html) - JavaScript library for building user interfaces or UI components
-- [Airtable](https://airtable.com/) - Used to store data which can be updated the day of the hackathon
+- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - A framework for building responsive, mobile-first sites
 
