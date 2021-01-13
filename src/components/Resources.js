@@ -5,9 +5,9 @@ const Resources = () => (
   <Container className="mt-5">
     <Row>
       <Col>
-        <h1 id="resources" className="font-weight-bold">
+        <h2 id="resources" className="font-weight-bold">
           Resources
-        </h1>
+        </h2>
       </Col>
     </Row>
   </Container>

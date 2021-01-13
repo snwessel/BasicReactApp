@@ -5,9 +5,9 @@ const Team = () => (
   <Container className="mt-5">
     <Row>
       <Col>
-        <h1 id="team" className="font-weight-bold">
+        <h2 id="team" className="font-weight-bold">
           Our Team
-        </h1>
+        </h2>
       </Col>
     </Row>
   </Container>

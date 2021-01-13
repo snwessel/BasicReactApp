@@ -5,9 +5,9 @@ const Schedule = () => (
   <Container className="mt-5">
     <Row>
       <Col>
-        <h1 id="schedule" className="font-weight-bold">
+        <h2 id="schedule" className="font-weight-bold">
           Event Schedule
-        </h1>
+        </h2>
       </Col>
     </Row>
   </Container>
