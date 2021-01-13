@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
-import Logo from "../assets/logo-white.js";
+import Logo from "../assets/react-logo.png";
 
 const MainNavbar = () => {
   return (
@@ -11,16 +11,11 @@ const MainNavbar = () => {
       variant="dark"
       sticky="top"
     >
-      <div className="navbar-logo">
-        <Logo />
-      </div>
+      <img className="navbar-logo" src={Logo} alt="White logo" />
 
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav>
-          <Nav.Link href="#schedule" className="navbar-text">
-            Schedule
-          </Nav.Link>
           <Nav.Link href="#resources" className="navbar-text">
             Resources
           </Nav.Link>
